@@ -36,8 +36,10 @@ public class Question {
 
     @Override
     public String toString() {
-        return "Question{" +
-                "score=" + score +
-                '}';
+        return "QUESTION - " +
+                "Score: " + score +
+                " - Category: " + category +
+                " - Question: " + question +
+                " - Answer: " + answer;
     }
 }
